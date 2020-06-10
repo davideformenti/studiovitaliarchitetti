@@ -491,7 +491,7 @@ font-size: 1rem;
     text-decoration: none;
 }
 
-    #img-project  {max-width: 70%; overflow-y: hidden; object-fit: contain;} 
+    #img-project  {height: inherit; overflow-y: hidden; object-fit: contain;} 
     
     
 body {

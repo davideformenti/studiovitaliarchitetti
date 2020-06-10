@@ -61,154 +61,410 @@ $(document).ready(function() {
 
 // EXAMPLE json da cambiare //
 const petsData = [
-    {
-       "Num": 1,
-   "Name": "Progetto1",
-   "Date": "10.2.09",
-   "Cliente": "Cliente01",
-   "Description": "LoremIpsum",
+ {
+   "Num": 1,
+   "Name": "Titolo di Prova",
    "Image1": "assets/01.jpg",
    "Image2": "assets/02.jpg",
    "Image3": "assets/03.jpg",
-    "Image4": "assets/04.jpg",
+   "Image4": "assets/04.jpg",
    "Image5": "assets/05.jpg",
    "Image6": "assets/06.jpg",
-    "Image7": "assets/07.jpg",
+   "Image7": "assets/07.jpg",
    "Image8": "assets/08.jpg",
    "Image9": "assets/09.jpg"
  },
  {
    "Num": 2,
    "Name": "Titolo Prova 2",
-   "Date": "6.12.09",
-   "Cliente": "Cliente02",
-   "Description": "LoremIpsum",
-   "Image1": "assets/5.png",
-   "Image2": "assets/7.png",
-   "Image3": "assets/9.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 3,
    "Name": "Titolo di prova 3",
-   "Date": "5.3.10",
-   "Cliente": "Cliente03",
-   "Description": "LoremIpsum",
-   "Image": "assets/3.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 4,
    "Name": "Titolo di prova 4",
-   "Date": "5.3.11",
-   "Cliente": "Cliente04",
-   "Description": "LoremIpsum",
-   "Image": "assets/4.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 5,
    "Name": "Titolo di prova 5",
-   "Date": "5.3.12",
-   "Cliente": "Cliente05",
-   "Description": "LoremIpsum",
-   "Image": "assets/5.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 6,
    "Name": "Titolo di prova 6",
-   "Date": "5.3.13",
-   "Cliente": "Cliente06",
-   "Description": "LoremIpsum",
-   "Image": "assets/6.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 7,
    "Name": "Titolo di prova 7",
-   "Date": "5.3.14",
-   "Cliente": "Cliente07",
-   "Description": "LoremIpsum",
-   "Image": "assets/7.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 8,
    "Name": "Titolo di prova 8",
-   "Date": "5.3.15",
-   "Cliente": "Cliente08",
-   "Description": "LoremIpsum",
-   "Image": "assets/8.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 9,
    "Name": "Titolo di prova 9",
-   "Date": "5.3.16",
-   "Cliente": "Cliente09",
-   "Description": "LoremIpsum",
-   "Image": "assets/9.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 10,
    "Name": "Titolo di prova 10",
-   "Date": "5.3.17",
-   "Cliente": "Cliente10",
-   "Description": "LoremIpsum",
-   "Image": "assets/10.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 11,
    "Name": "Titolo di prova 11",
-   "Date": "5.3.18",
-   "Cliente": "Cliente11",
-   "Description": "LoremIpsum",
-   "Image": "assets/11.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 12,
    "Name": "Titolo di prova 12",
-   "Date": "5.3.19",
-   "Cliente": "Cliente12",
-   "Description": "LoremIpsum",
-   "Image": "assets/12.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 13,
    "Name": "Titolo di prova 13",
-   "Date": "5.3.20",
-   "Cliente": "Cliente13",
-   "Description": "LoremIpsum",
-   "Image": "assets/13.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 14,
    "Name": "Titolo di prova 14",
-   "Date": "5.3.21",
-   "Cliente": "Cliente14",
-   "Description": "LoremIpsum",
-   "Image": "assets/14.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 15,
    "Name": "Titolo di prova 15",
-   "Date": "5.3.22",
-   "Cliente": "Cliente15",
-   "Description": "LoremIpsum",
-   "Image": "assets/15.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 16,
    "Name": "Titolo di prova 16",
-   "Date": "5.3.23",
-   "Cliente": "Cliente16",
-   "Description": "LoremIpsum",
-   "Image": "assets/16.png"
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
  },
  {
    "Num": 17,
    "Name": "Titolo di prova 17",
-   "Date": "5.3.24",
-   "Cliente": "Cliente17",
-   "Description": "LoremIpsum",
-   "Image": "assets/17.png"
- } 
-    ]
-
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ },
+ {
+   "Num": 18,
+   "Name": "Titolo di prova 18",
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ },
+ {
+   "Num": 19,
+   "Name": "Titolo di prova 19",
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ },
+ {
+   "Num": 20,
+   "Name": "Titolo di prova 20",
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ },
+ {
+   "Num": 21,
+   "Name": "Titolo di prova 21",
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ },
+ {
+   "Num": 22,
+   "Name": "Titolo di prova 22",
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ },
+ {
+   "Num": 23,
+   "Name": "Titolo di prova 23",
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ },
+ {
+   "Num": 24,
+   "Name": "Titolo di prova 24",
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ },
+ {
+   "Num": 25,
+   "Name": "Titolo di prova 25",
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ },
+ {
+   "Num": 26,
+   "Name": "Titolo di prova 26",
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ },
+ {
+   "Num": 27,
+   "Name": "Titolo di prova 27",
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ },
+ {
+   "Num": 28,
+   "Name": "Titolo di prova 28",
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ },
+ {
+   "Num": 29,
+   "Name": "Titolo di prova 29",
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ },
+ {
+   "Num": 30,
+   "Name": "Titolo di prova 30",
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ },
+ {
+   "Num": 31,
+   "Name": "Titolo di prova 31",
+   "Image1": "assets/01.jpg",
+   "Image2": "assets/02.jpg",
+   "Image3": "assets/03.jpg",
+   "Image4": "assets/04.jpg",
+   "Image5": "assets/05.jpg",
+   "Image6": "assets/06.jpg",
+   "Image7": "assets/07.jpg",
+   "Image8": "assets/08.jpg",
+   "Image9": "assets/09.jpg"
+ }
+]
 
 ///////////////////
 // GRID TEMPLATE //
@@ -351,8 +607,18 @@ span.onclick = function() {
         imgRemover2.removeChild(imgRemover2.childNodes[1]);
         var imgRemover3 = document.getElementById("immagine3")
         imgRemover3.removeChild(imgRemover3.childNodes[1]);
-     $(".pet-name").removeClass("grassetto");
-    
+    var imgRemover4 = document.getElementById("immagine4")
+        imgRemover4.removeChild(imgRemover4.childNodes[1]);
+    var imgRemover5 = document.getElementById("immagine5")
+        imgRemover5.removeChild(imgRemover5.childNodes[1]);
+    var imgRemover6 = document.getElementById("immagine6")
+        imgRemover6.removeChild(imgRemover6.childNodes[1]);
+    var imgRemover7 = document.getElementById("immagine7")
+        imgRemover7.removeChild(imgRemover7.childNodes[1]);
+    var imgRemover8 = document.getElementById("immagine8")
+        imgRemover8.removeChild(imgRemover8.childNodes[1]);
+    var imgRemover9 = document.getElementById("immagine9")
+        imgRemover9.removeChild(imgRemover9.childNodes[1]);    
     //FINE codice per ripulire il modal dall'immagine
 
 }
@@ -368,7 +634,18 @@ window.addEventListener("click", function(event) {
         imgRemover2.removeChild(imgRemover2.childNodes[1]);
         var imgRemover3 = document.getElementById("immagine3")
         imgRemover3.removeChild(imgRemover3.childNodes[1]);
-         $(".pet-name").removeClass("grassetto");
+    var imgRemover4 = document.getElementById("immagine4")
+        imgRemover4.removeChild(imgRemover4.childNodes[1]);
+    var imgRemover5 = document.getElementById("immagine5")
+        imgRemover5.removeChild(imgRemover5.childNodes[1]);
+    var imgRemover6 = document.getElementById("immagine6")
+        imgRemover6.removeChild(imgRemover6.childNodes[1]);
+    var imgRemover7 = document.getElementById("immagine7")
+        imgRemover7.removeChild(imgRemover7.childNodes[1]);
+    var imgRemover8 = document.getElementById("immagine8")
+        imgRemover8.removeChild(imgRemover8.childNodes[1]);
+    var imgRemover9 = document.getElementById("immagine9")
+        imgRemover9.removeChild(imgRemover9.childNodes[1]);  
     }});
 
 
