@@ -215,7 +215,7 @@ const petsData = [
 function memeTemplate(pet) {
     return `
 <div class="animal" name="${pet.Num}">
-<p class="pet-name" data-name="${pet.Name}" id="${pet.Num}" data-image1="${pet.Image1}" data-image2="${pet.Image2}" data-image3="${pet.Image3}" onclick="funzione()" data-cliente="${pet.Cliente}" data-propaganda="${pet.Date}" data-spiegazione="${pet.Description}" data-template="${pet.Template}">${pet.Name}
+<p class="pet-name" data-name="${pet.Name}" id="${pet.Num}" data-image1="${pet.Image1}" data-image2="${pet.Image2}" data-image3="${pet.Image3}" data-image4="${pet.Image4}" data-image5="${pet.Image5}" data-image6="${pet.Image6}" data-image7="${pet.Image7}" data-image8="${pet.Image8}" data-image9="${pet.Image9}" onclick="funzione()" data-cliente="${pet.Cliente}" data-propaganda="${pet.Date}" data-spiegazione="${pet.Description}" data-template="${pet.Template}">${pet.Name}
 </p>
 </div>
 `
@@ -256,6 +256,12 @@ function theFunction(gigi)
  immagine1 = document.getElementById(ribolla).getAttribute("data-image1");
  immagine2 = document.getElementById(ribolla).getAttribute("data-image2");
  immagine3 = document.getElementById(ribolla).getAttribute("data-image3");
+ immagine4 = document.getElementById(ribolla).getAttribute("data-image4");
+ immagine5 = document.getElementById(ribolla).getAttribute("data-image5");
+ immagine6 = document.getElementById(ribolla).getAttribute("data-image6");
+ immagine7 = document.getElementById(ribolla).getAttribute("data-image7");
+ immagine8 = document.getElementById(ribolla).getAttribute("data-image8");
+ immagine9 = document.getElementById(ribolla).getAttribute("data-image9");
 
  console.log(gigi)
  console.log(gigi.target.id -1)
@@ -280,6 +286,42 @@ function theFunction(gigi)
  img3.setAttribute('class', 'normale');
  var src = document.getElementById("immagine3");
  src.appendChild(img3); 
+ 
+ var img4 = document.createElement("img");
+ img4.src = immagine3;
+ img4.setAttribute('class', 'normale');
+ var src = document.getElementById("immagine4");
+ src.appendChild(img4);
+ 
+ var img5 = document.createElement("img");
+ img5.src = immagine5;
+ img5.setAttribute('class', 'normale');
+ var src = document.getElementById("immagine5");
+ src.appendChild(img5);
+ 
+ var img6 = document.createElement("img");
+ img6.src = immagine6;
+ img6.setAttribute('class', 'normale');
+ var src = document.getElementById("immagine6");
+ src.appendChild(img6);
+ 
+ var img7 = document.createElement("img");
+ img7.src = immagine3;
+ img7.setAttribute('class', 'normale');
+ var src = document.getElementById("immagine7");
+ src.appendChild(img7);
+ 
+ var img8 = document.createElement("img");
+ img8.src = immagine8;
+ img8.setAttribute('class', 'normale');
+ var src = document.getElementById("immagine8");
+ src.appendChild(img8);
+ 
+ var img9 = document.createElement("img");
+ img9.src = immagine9;
+ img9.setAttribute('class', 'normale');
+ var src = document.getElementById("immagine9");
+ src.appendChild(img9);
  
 
 }
