@@ -1,0 +1,737 @@
+
+
+
+body {
+  overflow-x: hidden;
+    font-family: "Times New Roman", Times, serif !important;
+ border: 0px!important;}
+
+/*//////////////////////ARCHIVIO//////////////////////*/
+.listaprogetti{
+    padding-right: 1.3rem;
+
+}
+#titolocontatti{
+    padding-top: 1rem;
+}
+#contacts p {
+  padding: 0;
+  margin: 0;
+}
+
+#titoloprogetti{
+        margin-top: 2.9rem;
+    margin-right: 2rem;
+    
+}
+.titoletto{
+    font-size: 2rem;
+   
+}
+.testoabout{
+    margin-left: -2rem;
+    margin-top:2.9rem;
+    text-align: justify!important;
+}
+
+.rientro{
+    padding-left: 1rem;
+}
+
+#app{
+    text-align: end!important;
+    margin-right: 32px;
+}
+
+.grassetto{
+    font-weight: bold;
+}
+
+.imma{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 40rem;
+    object-fit: cover;
+}
+img {
+    max-width: 100%;
+
+}
+
+
+.animal p {  
+    margin: 0.5rem 0 0 0;
+    font-size: larger;
+    text-align: center;
+}
+
+.pet-name {
+    cursor: pointer;
+    position:relative;
+    top:0;
+    left:0;
+    
+}
+
+
+
+/*///////////////////////////MODALS/////////////////////////////*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: -2rem;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    /*overflow: hidden;  Enable scroll if needed */
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+    margin: 5rem auto; /* 15% from the top and centered */
+    /*    padding-bottom: 10px;*/
+;
+    width: 50%; /* Could be more or less, depending on screen size */
+     border: 0px!important;
+}
+
+
+
+.barra {
+    position:relative;
+    padding: 0px;
+}
+
+/*The Close Button */
+.spegni {
+    float: right;
+    font-size: 2rem;
+}
+
+.spegni:hover,
+.spegni:focus {
+  
+    cursor: pointer;
+}
+
+.didascalie_1 {
+    font-size: 1rem;
+    line-height: 1.1em;
+}
+
+.didascalie_2 {
+    font-size: 1.2vw;
+}
+
+.sinistro {
+}
+
+
+.bordino {
+    width: 75%;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.bordino_link {
+    width: 75%;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.bordino_1 {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.noMargin{
+    margin-right: 0 !important;
+}
+
+.link {
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
+
+.carousel-control-next-icon {
+    background-image: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: no-repeat 50%/100% 100%;
+}
+.carousel-control-prev-icon {
+    background-image:none ;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: no-repeat 50%/100% 100%;
+}
+
+
+
+
+
+/*//---------------------fine------------------------//*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------SIDEBAR---------------------------*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    background: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    left: 0rem;
+
+}
+
+/*//---------------------fine------------------------//*/
+
+
+
+
+
+
+
+
+
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+/*/////////////////////////// ONLY///////////////////////////*/
+
+
+
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+                  /*//INIZIO MEDIA MOBILEE//*/
+
+
+
+@media only screen and (max-width: 500px) {
+    #home{
+    line-height: 1.5rem;
+ font-size: 1.5rem;
+padding-top: 1.5rem;
+        margin-left: -0.2rem;}
+.listaprogetti{
+    padding-right: 1.3rem;
+    padding-top: 1.3rem;
+}
+    #app{
+    text-align: end!important;
+    margin-right: 0px;
+}
+    
+    #titolocontatti{font-size:   1.5rem;}
+    
+
+
+    
+  #text, p{
+  width: 100%;
+}  
+    
+ul {
+  list-style-type: none;
+  margin-left: 15px;
+  padding: 0;
+line-height: 1.6rem;
+}
+    
+/*// scritte sotto studio vitali (about, progetti, contatti) //*/
+li a {
+  display: inline-block;
+  padding: 0rem;
+  text-decoration: none;
+font-size: 1rem;
+}
+    
+    
+
+    #img-project{
+        margin-top: 10rem;
+        height: 25rem;
+        object-fit: cover;
+    }
+     #text-body {
+    margin: auto;
+  }
+
+  #text p {
+    padding-right: 5%;
+    margin-left: 8%;
+  }
+  .col-sm  h2, .col-sm  h3{
+    text-align: center
+  }
+    
+    
+    
+   /*SIDEBAR mobile*/
+    
+    .bottoncino {
+        display: none;  /*delete to active sidebar */
+
+    position: fixed;
+    z-index: 50;
+    left: 0rem;
+    height: 100%;
+    width: 3rem;
+    padding-top: 50vh;
+    top:0rem;
+}
+
+    .sidenav {
+        display: none; /*display block to active sidebar */
+        padding-top: 7rem;
+        width: 15rem;
+    }
+    .sidenav a {font-size: 1.4rem;}
+    .sidebar{position: fixed; padding: 0rem;}
+    .archivio{left: 50%; max-width: 100%; padding: 0rem;}
+    
+.rotato {
+    transform:rotate(-90deg);
+    font-size: 1rem;
+    width: max-content;
+    position: fixed;
+    margin-left: -1rem;
+}
+  
+
+
+/*
+    .grigliaSide {
+        height: 5rem;
+        width: auto;
+    }
+*/
+
+
+    .didascalie_1 {
+        font-size: 4.5vw;
+        line-height: 1.1em;
+    }
+
+    .didascalie_2 {
+        font-size: 3.5vw;
+    }
+/*
+    .pet-name {
+        height: 10rem;
+        width: 10rem;
+    }
+*/
+    .animal {
+        margin:0.1rem;
+        padding-left: 1rem;
+        overflow: visible;
+        float: left;
+        font-size: .75rem;
+    }
+
+
+    .normale {
+        height: 30rem;
+        width: 55rem;
+        display: block;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+
+    .modal-content {
+        border: 0px!important;
+        /* background-color: white; */
+        margin-top: 3em;
+        /* padding-bottom: 10px; */
+        width: 100%;
+        height: 100%;
+        padding:0.5rem;
+    }
+
+    #myModal {
+        left: 0;
+        top: 0px;
+    }
+    .bordino {
+        width: 100%;
+       
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .bordoMobile{
+    }
+
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0px;
+        top: 0px;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: hidden;
+    }
+    
+    
+.my__grid{
+    margin-right: 0rem;
+}
+    
+    #listaprogetti{padding: 0rem;}
+
+}
+    
+
+
+
+/*//---------------------fine------------------------//*/
+
+
+
+
+
+
+
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+/*//INIZIO MEDIA DESKTOP//*/
+
+
+
+
+
+@media only screen and (min-width:801px)  { 
+    
+    
+    
+    .contatti{margin-top: 2rem; margin-left:-3rem;}
+    .normale {
+        height: 30rem;
+        width: 55rem;
+        display: block;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+    
+    
+
+    
+    .VoceModal{font-size: 1.7rem;}
+        
+/*//style importato da index.css//*/
+
+
+#home{
+ font-size: 3rem;
+    text-decoration: none;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+font-family: "Times New Roman", Times, serif;
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+line-height: 2rem;
+}
+    
+/*// scritte sotto studio vitali (about, progetti, contatti) //*/
+    .arte{
+        padding-top: 2rem;
+        padding-right: 1.5rem;
+    }
+li a {
+   display: inline-block;
+    
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#navbar{position: fixed; margin: 3rem;}
+    
+   
+
+/*SUBMENU PROJECTS*/
+.card-body {
+  background: var(--bg);
+ 
+  padding-top: 0;
+  padding-left: 10%;
+}
+
+#container {
+  margin: 2% 1%;
+}
+    
+    
+
+
+    #listaprogetti{padding: 0rem;}
+
+/*TEXT*/
+#text, p{
+  width: 100%;
+margin-bottom: 4rem;
+}
+
+
+.img-project {
+  margin: auto;
+  width: 95%;
+}
+
+
+/*#text-body {
+  text-align: left;
+  width: fit-content;
+  margin: auto;
+  padding: auto;
+}*/
+
+#text-body h2, #text-body a {
+  width: inherit;
+}
+
+
+/*CAROUSEL*/
+#carousel {
+  width: 30%;
+  margin: auto;
+}
+
+.caption-hide h2, .caption-hide p{
+  display: none;
+  visibility: hidden;
+}
+
+.col-sm h2{
+  margin-bottom: 0;
+}
+.col-sm h3{
+  margin-bottom: 2%;
+}
+
+    
+    
+    
+    
+
+    .bottoncino{display: none; visibility: hidden;}
+    #bottoncino{display: none; visibility: hidden;}
+    #rotato{display: none; visibility: hidden;}
+    .rotato{display: none; visibility: hidden;}
+
+
+    /*SIDEBAR desktop*/
+    .sidenav {
+        display: none;
+        padding-top: 7rem;
+    }
+
+    
+    
+    
+    
+    .my__grid{
+    display:inline-flex;
+    margin-right: 0rem;
+}
+    
+    
+    
+    
+}
+
+/*//---------------------fine------------------------//*/
+
+
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+/*//INIZIO MEDIA 4K//*/
+
+
+
+@media only screen and (min-width:1700px)  {
+
+
+    #titolopaginaprogetti{
+        font-size: 3rem;
+        margin: 3rem;
+        
+    }
+    
+    
+    .rotato{display: none; visibility: hidden;}
+    .bottoncino {display: none; visibility: hidden; }
+    #bottoncino{display: none; visibility: hidden;}
+    #rotato{display: none; visibility: hidden;}
+
+    .sidenav {
+        display: none;
+    }
+
+    #navbar {
+        margin:3rem;
+    }
+    .sidenav a {
+        font-size: 4.5rem;
+    }
+
+    /*// scritte sotto studio vitali (about, progetti, contatti) //*/
+
+li a {
+   display: inline-block;
+  padding: 0.7rem 2rem;
+  text-decoration: none;
+font-size: 1.4rem;
+}
+    
+    
+    .animal {
+        line-height: 2.8rem;
+        padding-left: 0rem;
+        overflow: visible;
+        float: left;
+        font-size: 1.7rem;
+    }
+
+    .pet-name {
+        cursor: pointer;
+        position: relative;
+        top: 0;
+        left: 0;
+        
+    }
+
+
+
+    /*MODALS*/
+    .normale {
+        height: 30rem;
+        width: 55rem;
+        display: block;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+
+    
+    .my__grid{
+    display:inline-flex;
+    margin-right: 1rem;
+}
+    
+    
+    
+
+}
+
+
+
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+/*//FINE MEDIA 4K//*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+      
+      
